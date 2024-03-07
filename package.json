@@ -1,0 +1,17 @@
+{
+  "name": "assignment2-swtqa",
+  "version": "1.0.0",
+  "description": "Assignment2 for SWTQA",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

@@ -39,6 +39,7 @@ describe('BMI Calculator', () => {
 
 describe ('Category calculator', () => {
   test('calculates correct BMI categories', () => {
+    // calculate the BMI and their associated categories
     expect(getBMICategory(0)).toEqual("underweight")
     expect(getBMICategory(0.1)).toEqual("underweight")
     expect(getBMICategory(10)).toEqual("underweight")
@@ -57,6 +58,7 @@ describe ('Category calculator', () => {
 
 describe ('Output Results', () => {
   test('outputs correct details', () => {
+    // test that errors result in errors and valid BMI values result in proper values
     expect(outputResults(-1)).toEqual("invalid height or weight, please insert valid heights and weights")
     expect(outputResults(23)).toEqual("your bmi of 23.0 puts you in the healthy category")
   })

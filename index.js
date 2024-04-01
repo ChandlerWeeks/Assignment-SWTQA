@@ -2,7 +2,7 @@
 function getBMICategory(BMI) {
   if (BMI < 18.5) {
     return "underweight"
-  } else if (BMI < 25) {
+  } else if (BMI < 24.9) {
     return "healthy"
   } else if (BMI < 30) {
     return 'overweight'

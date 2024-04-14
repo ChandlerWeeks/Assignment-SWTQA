@@ -45,6 +45,7 @@ function updateBMI() {
   
 }
 
+/* istanbul ignore start */
 // get user's height and weight
 /*
 const args = process.argv.slice(2)
@@ -62,3 +63,5 @@ module.exports = { getBMICategory, calculateBMI, outputResults };
 window.calculateBMI = calculateBMI;
 window.getBMICategory = getBMICategory;
 window.outputResults = outputResults;
+
+/* istanbul ignore end */
